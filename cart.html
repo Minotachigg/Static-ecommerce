@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESSENCE</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- mobile nav -->
+    <input type="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="nav-header">
+            <span>Menu</span>
+            <div class="close-btn">
+                <label for="toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="header-top">
+                <div class="logo">
+                    <h1> <a href="./index.html">ESSENCE </a> </h1>
+                </div>
+
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <a href="">
+                        <ion-icon name="search"></ion-icon>
+                    </a>
+                    <a href="./cart.html">
+                        <ion-icon name="bag-handle"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="person"></ion-icon>
+                    </a>
+                </div>
+                <label for="toggle-nav">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <main>
+        <div class="cart">
+            <div class="cart-container">
+                <div class="cart-header">
+                    <h2 class="cart-text">Shopping Cart</h2>
+                </div>
+
+                <!-- breadcrumbs -->
+                <div class="breadcrumbs">
+                    <a href="./index.html">Home</a> <span>></span> <a href="./cart.html">Cart</a> 
+                </div>
+                <br>
+                <small class="small-header">Cart(1 Item)</small>
+                <div class="cart-info">
+                    <div class="item-img" alt="Black T-Shirt">
+                    </div>
+                    <div class="cart-item">
+                        <small>Black T-Shirt</small>
+                        <span>Color: Black</span>
+                        <span>Size: M</span>
+                        <div class="btn-main">
+                            <button><ion-icon name="remove-outline"></ion-icon></button> 
+                            <input type="" value="1">
+                            <button><ion-icon name="add-outline"></ion-icon></button>
+                        </div>
+                        <span>Price: $34.58</span>
+                        <br>
+                        <a href=""><ion-icon name="trash-outline"></ion-icon>Remove Item</a> 
+                    </div>
+                    <div class="cart-total">
+                        <h3>The Total amount of</h3>
+                        <small>Item-amount </small><span>$34.58</span>
+                        <small>Shipping </small><span>$0.00</span>
+                        <p>Total amount</p> <span>$34.58</span>
+                        <button> <a href="./checkout.html">Go to Checkout</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer-section">
+            <div class="footer-container">
+
+                <div class="footer-text">
+                    <h4>Search by Category</h4>
+                    <span>Find your needs</span>
+                    <div>
+                        <ul>
+                            <li><a href="">Men's </a></li>
+                            <li><a href="">Women's </a></li>
+                            <li><a href="">Children's </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-text">
+                    <h4>Need Help</h4>
+                    <span>Call us: +14 123 45789</span>
+                    <div>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Customer care</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Return</a></li>
+                            <li><a href="">Privac Policy</a></li>
+                            <li><a href="">Terms & Conditions </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-text">
+                    <h4>Want to join us</h4>
+                    <span>Connect through here</span>
+                    <div>
+                        <div class="form">
+                            <span>Email:</span> <br>
+                            <input type="email" placeholder="example@gmail.com">
+                            <button class="btn-main">Join</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- icon script -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+
+</html>

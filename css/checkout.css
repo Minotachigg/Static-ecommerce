@@ -1,0 +1,58 @@
+.breadcrumbs{
+    background: rgba(151, 150, 147, 0.527);
+    padding-left: 5rem;
+}
+
+.breadcrumbs a, span{
+    color: rgb(51, 49, 49);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background: rgb(243, 243, 243);
+}
+
+.checkout-section{
+    background: rgb(255, 255, 255);
+    margin: 4rem 30rem;
+    padding: 2rem 2rem;
+} 
+.checkout-section h3, small{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.checkout-section h2{
+    border-bottom: solid rgba(235, 117, 70, 0.733);
+    text-align: center;
+}
+
+.form-control input{
+    margin: .7rem 0rem;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#name input{
+    width: 9.8rem;
+}
+
+.btn-submit{
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.btn-submit button{
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(235, 117, 70);
+}

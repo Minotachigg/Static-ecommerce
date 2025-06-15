@@ -1,0 +1,48 @@
+.slider-section
+{
+    margin-top: 3rem;
+}
+
+.slide{
+    border: 1px solid var(--accentCOlor);
+    margin: 0rem 1rem;
+}
+
+.slide-img{
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slde-info{
+    text-align: center;
+    padding: .5rem;
+    text-align: left;
+}
+
+.slide-info h3{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: rgb(44, 41, 41);
+}
+
+.price p{
+    font-weight: 600;
+    color: rgb(224, 86, 22);
+    border: none !important;
+}
+
+.price p span{
+    font-weight: 500;
+    color: rgb(16, 20, 20);
+    text-decoration:line-through red;
+}
+
+.slide button{
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid rgb(255, 97, 34);
+    background-color: rgba(224, 75, 15, 0.726);
+}

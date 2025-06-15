@@ -1,0 +1,117 @@
+:root{
+    --primaryColor: rgba(233, 221, 221, 0.384); 
+    --accentColor: rgba(197, 203, 233, 0.637); 
+    --textColor: rgb(94, 94, 94); 
+    --buttonColor: rgb(224, 102, 53);
+}
+
+.header-top{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumbs{
+    background: rgba(151, 150, 147, 0.527);
+    padding-left: 5rem;
+}
+
+.breadcrumbs a, span{
+    color: rgb(51, 49, 49);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.product{
+    padding: 1rem 5rem;
+    background: var(--primaryColor);
+}
+
+.prod-body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-repeat: no-repeat;
+}
+
+.prod-img{
+    border: solid gray;
+    background-image: url(../img/b1.jpg);
+    max-width: 500px;
+    height: 70vh;
+    background-size: cover;
+}
+
+.prod-details h3, small{
+    text-decoration: underline black;
+}
+
+.prod-info,
+.prod-size,
+.prod-controls{
+    padding: 1rem;
+}
+
+.size-container{
+    display: flex;
+}
+
+.size-container label{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.size-container input[type=radio]{
+    display: none;
+}
+
+.size-container span{
+    color: var(--textColor);
+    border: 2px solid rgba(184, 182, 182, 0.096);
+    padding: .1rem .5rem;
+}
+
+.size-container input[type=radio]:checked + span{
+    padding: .1rem .5rem;
+    border: 2px solid var(--buttonColor);
+}
+
+.prod-price,
+.prod-btn button{
+    background: transparent;
+    margin-bottom: 1rem;
+}
+
+.prod-btn button{
+    font-size: 1.5rem;
+    border: none;
+}
+
+.prod-btn input{
+    text-align: center;
+    padding-top: .7rem;
+    width: 2rem;
+}
+
+.product .btn-main{
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+    border: solid rgb(204, 100, 59);
+    background-color: var(--buttonColor);
+}
+
+.featured{
+    padding: 1rem 3rem;
+    text-align: center;
+    background: rgb(208, 212, 216);
+}
+
+.sec-header span{
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-bottom: 3px solid black;
+}
+
+.slide-info h3{
+    font-size: 1rem;
+}
+

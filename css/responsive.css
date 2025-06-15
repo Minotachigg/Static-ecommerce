@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1300px){
+
+    .checkout-section{
+        margin: 4rem 15rem;
+    } 
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .cart-text{
+        padding: 4rem 4rem 4rem 20rem;
+    }
+
+    .cart-info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item-img,
+    .cart-item,
+    .cart-total{
+        padding: 2rem;
+    }
+
+    .checkout-section{
+        margin: 2rem 13rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .container{
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .prod-img{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .content button{
+        margin-left: 1rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .container{
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brand-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav ul{
+        display: none;
+    }
+    nav label{
+        display: inline-block;
+    }
+
+    .nav-icon{
+        margin-left: 10rem;
+    }
+
+    .hero-col{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-text{
+        font-size: 1rem;
+    }
+
+    .promo-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+
+    footer{
+        font-size: 1rem;
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .footer-text input{
+        width: 8rem;
+        height: 2rem;
+    }
+
+    .service-container{
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    /* product */
+    .prod-body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .prod-img{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+    /* About */
+    .head-img{
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .head-img{
+        padding-left: 1rem;
+    }
+
+    .head-img h1{
+        font-size: 1.5rem;
+    }
+    .head-text{
+        max-width: 300px;
+        font-size: .8rem;
+    }
+    .sub-text{
+        padding: 2rem 2rem;
+    }
+
+    /* cart */
+    .cart-text{
+        padding: 4rem 4rem 4rem 15rem;
+    }
+
+    .cart-info{
+        display: grids;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .checkout-section{
+        margin: 2rem 8rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .checkout-section{
+        margin: 1rem 3rem;
+    }
+
+    .form-control input{
+        width: 20rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .container{
+        max-width: 400px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .brand-img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-icon{
+        margin-left: 1rem;
+    }
+    
+    .hero-sec h1{
+        font-size: 1.8rem;
+    }
+
+    .hero-sec p{
+        font-size: x-small;
+    }
+
+    .banner-text{
+        font-size: .7rem;
+    }
+
+    .promo-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .service-container{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .promo-banner h2{
+        font-size: 1.5rem;
+    }
+
+    .promo-banner button{
+        width: 5rem;
+        margin-left: 3rem;
+    }
+
+    .promo-text p{
+        font-size: 1rem;
+    }
+
+    .promo-text span{
+        font-size: .8rem;
+    }
+
+    .prod-img{
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .checkout-section{
+        margin: 1rem 2rem;
+    }
+
+    .form-control input{
+        width: 15rem;
+    }
+}

@@ -1,0 +1,86 @@
+.breadcrumbs{
+    background: rgba(151, 150, 147, 0.527);
+    padding-left: 5rem;
+}
+
+.breadcrumbs a, span{
+    color: rgb(51, 49, 49);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.cart-container{
+    background: rgb(253, 251, 251);
+}
+
+.cart-text{
+    justify-content: center;
+    padding: 4rem 4rem 4rem 30rem;
+}
+
+.cart-header{
+    color: #fff;
+    background-image: url(../img/h4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.small-header{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 10rem;
+}
+
+.cart-info{
+    max-width: 1400px;
+    padding: 1rem;
+    margin: 3rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgb(211, 211, 211);
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-total{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-img{
+    background-image: url(../img/b1.jpg);
+    height: 30vh;
+    width: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cart-item small, span{
+    font-weight: 600;
+    color: rgb(24, 23, 23);
+}
+
+.btn-main input{
+    width: 1.5rem;
+    text-align: center;
+}
+
+.cart-item a{
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+
+.cart-total button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: solid rgb(204, 100, 59);
+    background: rgb(224, 102, 53);
+}
+
+.cart-total a{
+    color: black;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESSENCE</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- mobile nav -->
+    <input type="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="nav-header">
+            <span>Menu</span>
+            <div class="close-btn">
+                <label for="toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="header-top">
+                <div class="logo">
+                    <h1> <a href="./index.html">ESSENCE </a> </h1>
+                </div>
+
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <a href="">
+                        <ion-icon name="search"></ion-icon>
+                    </a>
+                    <a href="./cart.html">
+                        <ion-icon name="bag-handle"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="person"></ion-icon>
+                    </a>
+                </div>
+                <label for="toggle-nav">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- breadcrumbs -->
+    <div class="breadcrumbs">
+        <a href="./index.html">Home</a> <span>></span> <a href="./cart.html">Cart</a> <span>></span> <a>Checkout</a>
+    </div>
+
+    <main>
+
+        <div class="checkout">
+            <div class="checkout-section">
+                <h3>Checkout Process <br>
+                <span>Please Fill up the Following form to complete the Process</span></h2> <br> <br>
+
+                <!-- billing form -->
+                <form action="" class="customer-info">
+                    <div>
+                        <h2>Payment Information</h2>
+                    </div>
+                    <div class="form-control" id="name">
+                        <label for="Name">Full Name</label> <br>
+                            <input type="text" placeholder="first name" required>
+                            <input type="text" placeholder="last name" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="card-no">Credit Card Number</label> <br>
+                        <select class="card-choose">
+                            <option value="" disabled selected>Card Type</option>
+                            <option value="1">Type 1</option>
+                            <option value="2">Type 2</option>
+                        </select> <br>
+                        <input type="text" placeholder="Credit Card number" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="expiry">CVV</label> <br>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="form-control" id="name">
+                        <label for="expiry">Expiration Date</label> <br>
+                        <input type="number" min="1" max="31" placeholder="1" required>
+                        <input type="number" min="2000" max="2050" placeholder="2000" required>
+                    </div> <br> 
+
+                    <h2>Billing Address</h2>
+                    <div class="form-control">
+                        <label for="country">Country<br></label>
+                        <select class="country-choose">
+                            <option value="" disabled selected>Choose Country</option>
+                            <option value="1">Country 1</option>
+                            <option value="2">Country 2</option>
+                            <option value="3">Country 3</option>
+                            <option value="3">Country 4</option>
+                            <option value="3">Country 5</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="address">Address</label> <br>
+                        <input type="text" placeholder="your address" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="city">City</label> <br>
+                        <input type="text" placeholder="city name" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="zipcode">PostCode/ZIP</label> <br>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="phone">Phone</label> <br>
+                        <input type="number" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="Email">Email</label> <br>
+                        <input type="email" required>
+                    </div>
+                    <div class="btn-submit" >
+                    <button type="submit">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-section">
+            <div class="footer-container">
+
+                <div class="footer-text">
+                    <h4>Search by Category</h4>
+                    <span>Find your needs</span>
+                    <div>
+                        <ul>
+                            <li><a href="">Men's </a></li>
+                            <li><a href="">Women's </a></li>
+                            <li><a href="">Children's </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-text">
+                    <h4>Need Help</h4>
+                    <span>Call us: +14 123 45789</span>
+                    <div>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Customer care</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Return</a></li>
+                            <li><a href="">Privac Policy</a></li>
+                            <li><a href="">Terms & Conditions </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-text">
+                    <h4>Want to join us</h4>
+                    <span>Connect through here</span>
+                    <div>
+                        <div class="form">
+                            <span>Email:</span> <br>
+                            <input type="email" placeholder="example@gmail.com">
+                            <button class="btn-main">Join</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- icon script -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
+

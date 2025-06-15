@@ -1,0 +1,133 @@
+:root{
+    --primaryColor: rgba(200, 255, 255, 0.13); 
+    --accentColor: rgba(197, 203, 233, 0.637); 
+    --textColor: rgb(134, 134, 134); 
+    --buttonColor: rgb(224, 102, 53);
+}
+
+.hero-sec-shop{
+    height: 80vh;
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.hero-sec-shop h1, p{
+    color: #fff;
+    font-weight: 600;
+}
+
+.breadcrumbs{
+    background: rgba(151, 150, 147, 0.527);
+    padding-left: 5rem;
+}
+
+.breadcrumbs a, span{
+    color: rgb(51, 49, 49);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.main-container{
+    padding: 3rem 3rem;
+}
+
+.container{
+    margin: 8rem;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--primaryColor);
+}
+
+.content{
+    background-size: cover;
+    margin: 3rem 3rem;
+}
+
+.content-img{
+    height: 40vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.content-info h3{
+    color: rgba(15, 14, 14, 0.616);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.price p{
+    color: rgba(255, 0, 0, 0.616);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.price span{
+    color: rgba(255, 0, 0, 0.616);
+    text-decoration: line-through red;
+}
+
+.content button{
+    margin-left: 2rem;
+}
+
+.btn-main button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: solid rgb(235, 114, 114);
+    background: var(--buttonColor);
+}
+
+.desc-container{
+    background: rgba(241, 200, 200, 0.253);
+}
+
+.desc-container h2{
+    text-decoration: underline black;
+    text-align: center;
+}
+
+.page-btn{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.btn-prev,
+.btn-next,
+span{
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.page-btn a{
+    padding: .5rem;
+}
+
+.brand-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.brand-img .img-main{
+    height: 18vh;
+    margin: 1rem 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: rgb(235, 231, 231);
+    padding: 3rem 1rem;
+}

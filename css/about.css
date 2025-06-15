@@ -1,0 +1,48 @@
+.breadcrumbs{
+    background: rgba(151, 150, 147, 0.527);
+    padding-left: 5rem;
+}
+
+.breadcrumbs a, span{
+    color: rgb(51, 49, 49);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+
+.head-img{
+    padding: 7rem 7rem;
+}
+
+.head-img{
+    background-image: url(../img/a2.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head-img h1{
+    padding-left: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.head-text p{
+    color: white;
+    max-width: 400px;
+}
+
+
+.sub-text{
+    padding: 5rem 7rem;
+    background: rgb(230, 224, 224);
+}
+
+.sub-text h2, p{
+    padding: 1rem;
+}
+
+.sub-text h2 span{
+    border-bottom: 2px solid black;
+}

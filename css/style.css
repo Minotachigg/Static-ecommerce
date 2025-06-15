@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --primaryColor: rgba(241, 106, 106, 0.384); 
+    --accentColor: rgba(197, 203, 233, 0.637); 
+    --textColor: rgb(94, 94, 94); 
+    --buttonColor: rgb(224, 102, 53);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-top{
+    background-color: var(--accentColor);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+/* NAV */
+.logo{
+    color: rgb(16, 46, 46);
+    display: flex;
+    background: transparent;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    margin-top: .7rem;
+    margin-left: 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+.nav-icon{
+    margin-top: .7rem;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.nav-icon a{
+    padding-left: 1.5rem;
+}
+
+nav label{
+    font-size: 2rem;
+    display: none;
+}
+
+/* MOBILE NAV */
+#toggle-nav{
+    display: none;
+}
+
+#toggle-nav:checked ~ .mobile-nav{
+    right: 0;
+}
+
+.mobile-nav span{
+    border-bottom: 3px solid black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.mobile-nav{
+    position: fixed;
+    height: 100%;
+    right: -305px;
+    top: 0;
+    background:  rgba(241, 175, 148, 0.9);
+    width: 300px;
+    z-index: 100;
+    transition: right 300ms;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem 1rem;
+}
+
+.close-btn label{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.mobile-menu{
+    padding: 1rem 1rem;
+}
+
+.mobile-menu li{
+    margin-bottom: 1rem;
+}
+
+.mobile-menu li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--textColor);
+    font-weight: 600;
+}
+
+.active{
+    border-bottom: solid red;
+}
+
+/* HERO SECTION */
+.hero-sec{
+    background-size: cover;
+    background-image: url(../img/c1.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-sec{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* HERO COL */
+.hero-col{
+    background-color: rgb(245, 245, 252);
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.col-1{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-image: url(../img/h2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col-2{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-image: url(../img/h1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col-3{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-image: url(../img/h3.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-col h2{
+    color: #fff;
+}
+
+.hero-col h2:hover{
+    font-size: 30px;
+    font-weight: 1000;
+    color: var(--buttonColor);
+}
+
+/* ARRIVAL */
+.new-arrival{
+    padding: 1rem 3rem;
+    text-align: center;
+    background: rgb(204, 204, 204);
+}
+
+.header-section h2 span{
+    font-weight: 600;
+    border-bottom: 2px solid red;
+}
+
+/* BANNER */
+.banner-section{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4rem 2rem;
+}
+
+.banner-text{
+    font-size: 1.5rem;
+    color: rgb(255, 68, 0);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-text p{
+    text-align: center;
+}
+
+.banner-text button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid rgb(224, 102, 53);
+    background-color: var(--buttonColor);
+    height: 2rem;
+}
+
+
+/* PROMO */
+.promo-section{
+    background: rgb(245, 245, 252);
+    padding: 3rem 3rem;
+}
+
+.promo-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 2rem;
+}
+
+.promo-banner h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.promo-banner button{
+    width: 10rem;
+    height: 2rem;
+    margin-left: 5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid rgb(224, 102, 53);
+    background-color: var(--buttonColor);
+}
+
+.promo-text p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.promo-text span{
+    text-decoration: underline;
+}
+
+.promo-text span, 
+.promo-text small{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: var(--textColor);
+}
+
+/* SERVICE */
+.services-section{
+    padding: 2rem;
+    background-color: var(--accentColor);
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.service{
+    margin-top: 1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.service ion-icon{
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--buttonColor);
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(235, 231, 231);
+    padding: 3rem 1rem;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-text h4{
+    color: rgb(41, 38, 38);
+}
+
+.footer-text span{
+    font-size: .8rem;
+    color: var(--textColor);
+}
+
+.footer-text div{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-text li{
+    margin-bottom: .5rem;
+}
+
+.footer-text li a{
+    text-decoration:wavy;
+    font-size: .8rem;
+    color: rgb(77, 73, 73);
+}
+
+.footer-text li a:hover{
+    color: rgb(185, 185, 185);
+}
+
+.footer-text input{
+    width: 13rem;
+    height: 2rem;
+    border:medium var(--textColor);
+}
+
+.footer-text button{
+    margin-left: .5rem;
+    width: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid rgb(224, 102, 53);
+    background-color: var(--buttonColor);
+}
+
+
+
+
+/* PRODUCT PAGE */
